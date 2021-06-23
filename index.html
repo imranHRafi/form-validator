@@ -8,34 +8,40 @@
     <title>Form validator</title>
 </head>
 <body>
-    <div class="container">
-        <form  id="form" class="form">
-            <h2>Register with us</h2>
-            <div class="form-control">
-                <label for="username" class="username">Username </label>
-                <input type="text" id="username" placeholder="Enter Username">
-                <small>error massage</small>
-            </div>
-            <div class="form-control">
-                <label for="email" >Email </label>
-                <input type="text" id="email" placeholder="Enter email">
-                <small>error massage</small>
-            </div>
-            <div class="form-control">
-                <label for="password" >Password </label>
-                <input type="password" id="password" placeholder="Enter password">
-                <small>error massage</small>
-            </div>
-            <div class="form-control">
-                <label for="password2" >Confirm Password </label>
-                <input type="password" placeholder="Enter password2">
-                <small>error massage</small>
-            </div>
-            <button type= "submit">Submit</button>
-
-        </form>
+    <div class="sign-up">
+        <div class="box">
+            <h1 class="connect-text" ><br>Or,<br>Connect With </h1>
+        </div>
+        <div class="container">
+            <form id="form" class="form">
+                <h2>Register with us</h2>
+                <div class="form-control success">
+                    <label for="username" class="username">Username </label>
+                    <input type="text" id="username" placeholder="Enter Username">
+                    <small>error massage</small>
+                </div>
+                <div class="form-control error">
+                    <label for="email">Email </label>
+                    <input type="text" id="email" placeholder="Enter email">
+                    <small>error massage</small>
+                </div>
+                <div class="form-control">
+                    <label for="password">Password </label>
+                    <input type="password" id="password" placeholder="Enter password">
+                    <small>error massage</small>
+                </div>
+                <div class="form-control">
+                    <label for="password2">Confirm Password </label>
+                    <input type="password" placeholder="Enter confirm password">
+                    <small>error massage</small>
+                </div>
+                <button type="submit">Submit</button>
+        
+            </form>
+        </div>
+    
     </div>
-
+    
 <script src="script.js"></script>
 </body>
 </html>
